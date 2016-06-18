@@ -108,10 +108,16 @@ int main(int argc, char* argv[]){
                                 cout << i << " " << robots[i]->toString() << endl;
                         }
                         cout << endl;
-			cout << "Robot Modificado!" << endl;
- 
-			
+			cout << "Robot Modificado!" << endl;	
              	}
+		if(opcion == 5){
+			cout << "Funciones Robots" << endl;
+			//cout << endl;
+                        /*for (int i=0; i<robots.size(); i++){
+                                cout << i << " " << robots[i]->this.imprimir() << endl;
+                        }
+                        cout << endl;*/
+		}
 
 	}
 	return 0;
@@ -129,4 +135,6 @@ int menu(){
 	cout << "6. Salir" << endl;
 	cin >> opcion;
 	return opcion;
+
 }
+

@@ -1,6 +1,8 @@
 #include "robot.h"
 #include <string>
 #include <sstream>
+#include <iostream>
+using namespace std;
 using std::string;
 using std::stringstream;
 
@@ -21,4 +23,7 @@ void Robot::setSerial(string serie){
 }
 void Robot::setMaterial(string material){
 	this->material = material;
+}
+void Robot::imprimir(){
+	cout << serie;
 }

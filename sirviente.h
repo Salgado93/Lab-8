@@ -9,4 +9,5 @@ class Sirviente : public Robot{
 	Sirviente(string,string,double,double,int=0);
 	virtual ~Sirviente();
 	virtual string toString()const;
+	virtual void imprimir();
 };

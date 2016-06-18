@@ -8,4 +8,5 @@ class Abastecedor : public Robot{
   public:
 	Abastecedor(string,string,double,double);
 	virtual ~Abastecedor();
+	virtual void imprimir();
 };

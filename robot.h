@@ -14,4 +14,5 @@ class Robot{
 	virtual string toString()const;
 	void setSerial(string);
 	void setMaterial(string);
+	virtual void imprimir ();
 };

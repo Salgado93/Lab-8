@@ -8,4 +8,5 @@ class Trabajador : public Robot{
   public:
 	Trabajador(string,string,double,double);
 	virtual ~Trabajador();
+	virtual void imprimir();
 };

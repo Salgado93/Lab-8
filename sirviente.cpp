@@ -2,6 +2,8 @@
 #include "sirviente.h"
 #include <string>
 #include <sstream>
+#include <iostream>
+using namespace std;
 using std::string;
 using std::stringstream;
 
@@ -14,4 +16,8 @@ string Sirviente::toString()const{
 	stringstream ss;
 	ss << Robot::toString() << " Sirviente: " << "Oxido: " << oxido;
 	return ss.str();
+}
+void Sirviente::imprimir(){
+	oxido+=5;
+	cout << "Sirviente Aumento Oxido" << endl;
 }
